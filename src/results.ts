@@ -1,7 +1,6 @@
- import { resultOfAmount } from "./results.js";
+import { InvoiceUtilities } from "./InvoiceUtilities.js";
 
-
- export class InvoiceUtilities {   
+export class resultOfAmount {   
     static printInvoice (invoices:any, plays:any) {
         let totalAmount:number = 0;
         let volumeCredits:number = 0;
